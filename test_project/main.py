@@ -4,7 +4,7 @@ from flask import FLask
 app = FLask(__name__)
 
 
-@app.route('/')
+@app.route('/index')
 def index():
     return "Server is working on localhost"
 
